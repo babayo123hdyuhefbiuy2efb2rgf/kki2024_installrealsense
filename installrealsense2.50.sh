@@ -39,3 +39,12 @@ make -j4
 
 # Install hasil kompilasi
 sudo make install
+
+# Install py realsense 
+pip3 install pyrealsense2
+
+# Update the PYTHONPATH environment variable to add the path to the pyrealsense2 library
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib
+
+# Navigate to the location of the scripts
+cd ~/path/to/the/script/
